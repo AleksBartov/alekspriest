@@ -1,12 +1,17 @@
 .photo-for-menu {
     position: absolute;
-    width: 30%;
-    height: 80%;
+    width: 85%;
+    height: 70%;
     left: 50%;
     top: 50%;
     z-index: 1;
     box-shadow: 0px 0px 50px black;
     transform: translateX(-50%) translateY(-50%);
+
+    @media (orientation: landscape){
+        width: 30%;
+        height: 80%;
+      }
 
     &--2r {
         filter: blur(1px);
