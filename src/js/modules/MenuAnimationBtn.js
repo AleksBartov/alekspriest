@@ -1,6 +1,6 @@
 class BtnMenu {
     constructor() {
-      this.btn = document.getElementsByClassName('titleForArtikles__btn')[0];
+      this.btn = document.getElementsByClassName('titleForArtikles__container__btn')[0];
       this.photoBW1 = document.getElementsByClassName('photo-for-menu')[1];
       this.photoColored1 = document.getElementsByClassName('photo-for-menu')[0];
       this.photo2 = document.getElementsByClassName('photo-for-menu--2r')[0];
