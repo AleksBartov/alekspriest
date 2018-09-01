@@ -3,13 +3,15 @@
 }; %>
 <%= _.template(require('./../includes/header.html'))(data) %>
 
-<div class="frame">
-  <div class="frame__header">
-    <span class="frame__header__title">сайт священника</span>
-    <span class="frame__header__about">о проекте</span>
-  </div>
-</div>
+<header>
+  <span class="title">сайт священника</span>
+  <span class="about">о проекте</span>
+</header>
+
 <div class="content">
+  <div class="photo-for-menu">
+      <img src="img/priest.jpg" alt="">
+  </div>
   <div class="photo-for-menu">
     <img src="img/priest_b&w.jpg" alt="">
   </div>
@@ -20,6 +22,14 @@
     <img src="img/evharistia_b&w.jpg" alt="">
   </div>
 </div>
-<div id="themes"><span>здесь будет тема</span></div>
+
+<div class="titleForArtikles">
+  <div class="titleForArtikles__pretitle">о таинстве</div>
+  <div class="titleForArtikles__title">крещения</div>
+  <div class="titleForArtikles__posttitle">"Идите, научите все народы, крестя их во имя Отца и Сына и Святаго Духа" (Мф. 28, 19 )</div>
+  <div class="titleForArtikles__btn">изучить</div>
+</div>
+
+<footer></footer>
 
 <%= _.template(require('./../includes/footer.html'))(data) %>
