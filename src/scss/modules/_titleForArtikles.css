@@ -10,15 +10,14 @@
     &__container {
         position: relative;
         width: 94%;
-        height: 38%;
-        top: 62%;
+        height: auto;
         color: white;
         text-align: center;
         margin: 0 auto;
+        top: 100%;
+        transform: translateY(-107%);
 
         @media (orientation: landscape) { 
-            height: 65%;
-            top: 35%;
             width: 60%;
         }
 
@@ -60,11 +59,11 @@
             font-size: .85rem;
             border: 1px solid rgba(255,255,255,.3);
             transition: all .8s;
-            margin: 35px auto;
+            margin: 5px auto;
             width: 200px;
 
             @media (orientation: landscape) { 
-                margin: 20px auto;
+                margin: 5px auto;
             }
     
             &:hover {

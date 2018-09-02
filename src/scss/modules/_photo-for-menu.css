@@ -10,8 +10,8 @@
     transition: all .8s;
 
     @media (orientation: landscape){
-        width: 30%;
-        height: 80%;
+        width: 35%;
+        height: 74%;
       }
 
     &--2r {
