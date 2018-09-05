@@ -7,7 +7,7 @@
     z-index: 1;
     box-shadow: 0px 0px 50px black;
     transform: translateX(-50%) translateY(-50%);
-    transition: all .8s;
+    transition: all 2.8s cubic-bezier(0.19, 1, 0.22, 1);
 
     @media (orientation: landscape){
         width: 35%;
@@ -18,14 +18,28 @@
         filter: blur(1px);
         z-index: 0;
         transform: translateX(40%) translateY(-50%) translateZ(-80px);
-        transition: all .8s;
+        transition: all 2.8s cubic-bezier(0.19, 1, 0.22, 1);
     }
 
     &--3r {
         filter: blur(2px);
         z-index: -1;
-        transform: translateX(120%) translateY(-45%) translateZ(-160px);
-        transition: all .8s;
+        transform: translateX(120%) translateY(-50%) translateZ(-160px);
+        transition: all 2.8s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    &--2l {
+        filter: blur(1px);
+        z-index: 0;
+        transform: translateX(-50%) translateY(-50%) translateZ(-80px);
+        transition: all 2.8s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    &--3l {
+        filter: blur(2px);
+        z-index: -1;
+        transform: translateX(-50%) translateY(-50%) translateZ(-160px);
+        transition: all 2.8s cubic-bezier(0.19, 1, 0.22, 1);
     }
 
     & img {

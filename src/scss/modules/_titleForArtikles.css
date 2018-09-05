@@ -19,6 +19,7 @@
 
         @media (orientation: landscape) { 
             width: 60%;
+            transform: translateY(-120%);
         }
 
         &__pretitle {
