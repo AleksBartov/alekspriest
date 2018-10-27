@@ -3,28 +3,4 @@
     height: 100vh;
     background: url('../img/developer.jpeg') top center no-repeat;
     background-size: cover;
-
-    &__header {
-        position: relative;
-        top: 0;
-        left: 0;
-        height: 100px;
-        background-color: rgba(0,0,0,0.5);
-
-        &__name {
-            max-width: 50%;
-            position: relative;
-            top: 50%;
-            transform: translateY(-50%);
-            color: snow;
-            font-family: 'Noto Sans', sans-serif;
-            font-size: 1.4rem;
-            float: left;
-            padding: 0 30px;
-        }
-
-        &__menu {
-
-        }
-    }
 }
