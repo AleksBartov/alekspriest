@@ -11,8 +11,8 @@ class HeaderFixation {
       let maxDeep = 0;
       window.addEventListener('scroll', ()=>{
         let deep = window.pageYOffset
-        if (deep < maxDeep) {
-          this.header.style.top = `${deep}px`
+        if (deep > maxDeep) {
+          this.header.style.top = '-100px'
         } else {
           this.header.style.top = '0'
         }
