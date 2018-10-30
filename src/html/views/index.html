@@ -5,9 +5,9 @@
 
 <div class="hiddenMenu">
   <ul class="hiddenMenu__list">
-    <li class="hiddenMenu__list__works">мои работы</li>
-    <li class="hiddenMenu__list__skills">навыки</li>
-    <li class="hiddenMenu__list__contacts">контакты</li>
+    <li class="hiddenMenu__list__works"><a data-scroll href="#myW">мои работы</a></li>
+    <li class="hiddenMenu__list__skills"><a data-scroll href="#myS">навыки</a></li>
+    <li class="hiddenMenu__list__contacts"><a data-scroll href="#myC">контакты</a></li>
   </ul>
 </div>
 
@@ -23,8 +23,11 @@
 <div class="firstBlock">
 </div>
 
-<div class="secondBlock">
+<div class="worksBlock" id="myW">
 </div>
 
+<div class="skillsBlock" id="myS"></div>
+
+<div class="contactsBlock" id="myC"></div>
 
 <%= _.template(require('./../includes/footer.html'))(data) %>

@@ -12,7 +12,10 @@
     "beautify": "html dist/*.html --indent-size 2",
     "clear": "del-cli dist"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jquery-smooth-scroll": "^2.2.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.0.0-rc.3",
     "@babel/plugin-proposal-class-properties": "^7.0.0-rc.3",
