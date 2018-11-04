@@ -3,33 +3,41 @@
 }; %>
 <%= _.template(require('./../includes/header.html'))(data) %>
 
-<div class="hiddenMenu">
-  <ul class="hiddenMenu__list">
-    <li class="hiddenMenu__list__works"><a data-scroll href="#myW">мои работы</a></li>
-    <li class="hiddenMenu__list__skills"><a data-scroll href="#myS">навыки</a></li>
-    <li class="hiddenMenu__list__contacts"><a data-scroll href="#myC">контакты</a></li>
-  </ul>
-</div>
+<div class="container">
 
-
-<div class="header">
-  <div class="header__name"><span>Александр</span><span>Бартов</span></span></div>
-  <div class="header__menu">
-    <div class="header__menu__top"></div>
-    <div class="header__menu__middle"></div>
-    <div class="header__menu__bottom"></div>
+  <div class="hiddenMenu">
+    <ul class="hiddenMenu__list">
+      <li class="hiddenMenu__list__works"><a data-scroll href="#myW">мои работы</a></li>
+      <li class="hiddenMenu__list__skills"><a data-scroll href="#myS">навыки</a></li>
+      <li class="hiddenMenu__list__contacts"><a data-scroll href="#myC">контакты</a></li>
+    </ul>
   </div>
+  
+  
+  <div class="header">
+    <div class="header__name"><span>Александр</span><span>Бартов</span></span></div>
+    <div class="header__menu">
+      <div class="header__menu__top"></div>
+      <div class="header__menu__middle"></div>
+      <div class="header__menu__bottom"></div>
+    </div>
+  </div>
+  
+  <div id="group1">
+        <div class="firstLevel">
+            <img src="../../img/tableAndBooks.svg" alt="">
+      </div>
+      <div class="secondLevel">
+          <img src="../../img/developer.svg" alt="">
+    </div>
+  </div>
+  
+  <div class="worksBlock" id="myW">
+  </div>
+  
+  <div class="skillsBlock" id="myS"></div>
+  
+  <div class="contactsBlock" id="myC"></div>
 </div>
-
-<div class="firstBlock">
-  <img src="../../img/tableAndBooks.svg" alt="">
-</div>
-
-<div class="worksBlock" id="myW">
-</div>
-
-<div class="skillsBlock" id="myS"></div>
-
-<div class="contactsBlock" id="myC"></div>
 
 <%= _.template(require('./../includes/footer.html'))(data) %>

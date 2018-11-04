@@ -1,9 +1,13 @@
+@import "./modules/_container";
 @import "./modules/_header";
-@import "./modules/_firstBlock";
+@import "./modules/_group1";
+@import "./modules/_firstLevel";
+@import "./modules/_secondLevel";
 @import "./modules/_worksBlock";
 @import "./modules/_skillsBlock";
 @import "./modules/_contactsBlock";
 @import "./modules/_hiddenMenu";
+
 
 * {
   margin: 0;

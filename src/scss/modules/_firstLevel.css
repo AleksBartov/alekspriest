@@ -1,0 +1,7 @@
+.firstLevel {
+        width: 100%;
+        height: auto;
+        top: calc(100px - 50vh);
+        position: absolute;
+        transform: translateZ(-10px) scale(11);
+    }

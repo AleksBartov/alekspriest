@@ -1,0 +1,6 @@
+.secondLevel {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    transform: translateZ(-8px) scale(9);
+}
